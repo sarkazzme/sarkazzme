@@ -1,0 +1,70 @@
+* {
+   margin: 0;
+   padding: 0;
+
+}
+.container{
+   background: linear-gradient(135deg, #3ad1ff, #ff3fc6);
+   height: 100vh;
+}
+.image {
+   display: block;
+   margin-left: 610px;
+}
+
+.text {
+   text-align: center;
+}
+
+#start,
+#btn{
+   display: block;
+   margin: 0 auto;
+}
+#help{
+    display: block;
+    margin: 0 auto;
+}
+.btn {
+   font-size: 16px;
+   width: 100px;
+   height: 50px;
+   border: solid 3px black;
+   border-radius: 20px;
+   background: linear-gradient(25deg, rgb(175, 175, 175) 25%, #4e4e4e 75%);
+   color: #000;
+}
+
+.btn:hover {
+   cursor: pointer;
+}
+
+.choiseOFDifficalty {
+   margin-left: 12%;
+   margin-top: 20px;
+
+}
+
+#choiseDifficalty {
+   width: 120px;
+   height: 50px;
+   font-size: 18px;
+   border: solid 3px black;
+   text-align: center;
+   background: linear-gradient(90deg, rgb(70, 96, 245) 25%, #ff6d6d 75%);
+   cursor: pointer;
+}
+
+.button {
+   font-size: 18px;
+   width: 120px;
+   height: 50px;
+   text-align: center;
+   border: solid 3px black;
+   background: linear-gradient(270deg, rgb(70, 96, 245) 25%, #ff6d6d 75%);
+   color: #000;
+   cursor: pointer;
+}
+#pointMenu{
+   position: relative;
+}

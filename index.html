@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Document</title>
+</head>
+
+<body>
+   <div class="container">
+      <button class="btn" id="start" onclick="start()">start game</button>
+      <button class="btn" id="btn" onclick="enterAttempts()">Enter attempts</button>
+      <div id="pointMenu">
+         <div id="targetPoint"></div>
+      </div>
+      <div class="image" id="image">
+         <img src="img/map.jpg" id="imgMap" alt="">
+      </div>
+      <div class="text">
+         <h1 id="heading"></h1>
+         <h2 id="countClicker"></h2>
+         <h3 id='attempt'></h3>
+         <h3 id="coordinates"></h3>
+         <h3 id="target"></h3>
+      </div>
+      <button class="btn" id="help" onclick="help(target)">Help</button>
+   </div>
+
+
+   <!--  <div class="choiseOFDifficalty">
+      <select name="choiseDifficalty" id="choiseDifficalty">
+         <option value="simple">simple</option>
+         <option value="light">light</option>
+         <option value="medium">medium</option>
+         <option value="hard">hard</option>
+         <option value="impossible">impossible</option>
+      </select>
+      <button class="button" id="confirm" onclick="">Confirm</button>
+
+   </div> -->
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="main.js"></script>
+</body>
+
+</html>
